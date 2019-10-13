@@ -518,7 +518,8 @@ function Search() {
       month = "December";
       break;
   }
-  window.location = "/" + year + "/" + month + "/" + day + ".html";
+  //window.location = "/" + year + "/" + month + "/" + day + ".html";
+  window.location = "/Task_manager/" + year + "/" + month + "/" + day + ".html";
   //window.location = "D:/Users/andre/Desktop/live/" + year + "/" + month + "/" + day + ".html";
 }
 
